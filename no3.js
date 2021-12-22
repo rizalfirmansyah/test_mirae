@@ -70,7 +70,7 @@ const index = () => {
 
     const test = () => {
         datas.filter(item => 
-            setData2(item.login.includes('rul'))
+            setData2(item.login.includes(search))
         )
     }
 
